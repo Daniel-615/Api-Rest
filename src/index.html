@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <title>ApiRest-NodeJS</title>
+    <script src="./src/index.js"></script>
+    <script src="./src/controllers/index.controllers.js"></script>
+    <script src="./src/routes/index.js"></script>
+ </head>
+ <body>
+    <script type="text/javascript">
+        alert("Bienvenidos al servidor");
+    </script>
+    <form action="submit.js" method="post">
+        <div>
+          <label for="id_alumno">Id:</label>
+          <input type="text" id="id_alumno" name="id_alumno" required>
+        </div>
+        <div>
+          <label for="Nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+          <label for="Nota1">Nota 1:</label>
+          <input type="number" id="nota1" name="nota1" required>
+        </div>
+        <div>
+            <label for="Nota2">Nota 2:</label>
+            <input type="number" id="nota2" name="nota2" required>
+        </div>
+        <div>
+            <label for="Nota4">Nota 4:</label>
+            <input type="number" id="nota4" name="nota4" required>
+        </div>
+        <div>
+            <label for="fechanacimiento">Fecha Nacimiento:</label>
+            <input type="date" id="fechanacimiento" name="fechanacimiento" required>
+        </div>
+      </form>
+      
+ </body>
+ <footer>
+
+ </footer>
+</html>
