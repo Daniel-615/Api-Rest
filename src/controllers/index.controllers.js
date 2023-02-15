@@ -1,9 +1,9 @@
 const { Pool }=require('pg');
 const pool= new Pool({
-    host: 'localhost',
-    user: 'postgres',
-    password: 'angel1234',
-    database: 'NOTEPAD',
+    host: 'dpg-cfm6fgirrk07m3s4vtfg-a',
+    user: 'rest_api_abuq_user',
+    password: 'fgPEs1y8HUYLqU33PIBp018OBd4h1APz',
+    database: 'rest_api_abuq',
     port: '5432'   
 });
 //R
